@@ -6,7 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BrunOtify</title>
   </head>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+  * {
+  font-family: Helvetica;
+  color: white;
+}
+
+.heb {
+  text-align: center;
+  height: 20%;
+  background: linear-gradient(180deg, rgb(73, 73, 73), black);
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+}
+
+.oficina {
+  height: 30px;
+  border-radius: 20px;
+}
+
+.name {
+  display: inline;
+}
+
+.ano,
+.sub {
+  color: gray;
+  font-size: 12px;
+}
+
+.btn-play {
+  height: 70px;
+  display: inline-block;
+  align-items: flex-end;
+}
+
+.play {
+  text-align: end;
+}
+
+.playlist {
+  display: grid;
+  gap: 2px;
+}
+
+.body {
+  background-color: black;
+}
+
+.header {
+  background: linear-gradient(90deg, rgb(24, 24, 24), black);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+#btnPlay {
+  color: rgb(73, 73, 73);
+  font-size: 2rem;
+}
+
+  </style>
 
   <body class="body">
       <div class="heb">
